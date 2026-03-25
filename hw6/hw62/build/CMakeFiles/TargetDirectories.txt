@@ -1,0 +1,7 @@
+D:/hw5/build/CMakeFiles/thread_pool_compile_check.dir
+D:/hw5/build/CMakeFiles/thread_pool_demo.dir
+D:/hw5/build/CMakeFiles/process_worker.dir
+D:/hw5/build/CMakeFiles/process_pool_demo.dir
+D:/hw5/build/CMakeFiles/comparison.dir
+D:/hw5/build/CMakeFiles/ALL_BUILD.dir
+D:/hw5/build/CMakeFiles/ZERO_CHECK.dir
