@@ -1,0 +1,10 @@
+^D:\HW2\BUILD2\_DEPS\GOOGLEBENCHMARK-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/hw2/build2/_deps/googlebenchmark-subbuild -BD:/hw2/build2/_deps/googlebenchmark-subbuild --check-stamp-file D:/hw2/build2/_deps/googlebenchmark-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

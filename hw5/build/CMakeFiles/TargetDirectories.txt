@@ -1,0 +1,5 @@
+/mnt/host/d/hw4/build/CMakeFiles/producer_demo.dir
+/mnt/host/d/hw4/build/CMakeFiles/consumer_demo.dir
+/mnt/host/d/hw4/build/CMakeFiles/cleanup_demo.dir
+/mnt/host/d/hw4/build/CMakeFiles/edit_cache.dir
+/mnt/host/d/hw4/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,150 @@
+^D:\HW2\BUILD2\_DEPS\GOOGLEBENCHMARK-SUBBUILD\CMAKEFILES\1EAF201C8D5E9080C658C4FAD0800641\GOOGLEBENCHMARK-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P D:/hw2/build2/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/tmp/googlebenchmark-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/hw2/build2/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/Debug/googlebenchmark-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\HW2\BUILD2\_DEPS\GOOGLEBENCHMARK-SUBBUILD\CMAKEFILES\1EAF201C8D5E9080C658C4FAD0800641\GOOGLEBENCHMARK-POPULATE-DOWNLOAD.RULE
+setlocal
+cd D:\hw2\build2\_deps
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/hw2/build2/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/tmp/googlebenchmark-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/hw2/build2/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/Debug/googlebenchmark-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\HW2\BUILD2\_DEPS\GOOGLEBENCHMARK-SUBBUILD\CMAKEFILES\1EAF201C8D5E9080C658C4FAD0800641\GOOGLEBENCHMARK-POPULATE-UPDATE.RULE
+setlocal
+cd D:\hw2\build2\_deps\googlebenchmark-src
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/hw2/build2/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/tmp/googlebenchmark-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\HW2\BUILD2\_DEPS\GOOGLEBENCHMARK-SUBBUILD\CMAKEFILES\1EAF201C8D5E9080C658C4FAD0800641\GOOGLEBENCHMARK-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/hw2/build2/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/Debug/googlebenchmark-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\HW2\BUILD2\_DEPS\GOOGLEBENCHMARK-SUBBUILD\CMAKEFILES\1EAF201C8D5E9080C658C4FAD0800641\GOOGLEBENCHMARK-POPULATE-CONFIGURE.RULE
+setlocal
+cd D:\hw2\build2\_deps\googlebenchmark-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/hw2/build2/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/Debug/googlebenchmark-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\HW2\BUILD2\_DEPS\GOOGLEBENCHMARK-SUBBUILD\CMAKEFILES\1EAF201C8D5E9080C658C4FAD0800641\GOOGLEBENCHMARK-POPULATE-BUILD.RULE
+setlocal
+cd D:\hw2\build2\_deps\googlebenchmark-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/hw2/build2/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/Debug/googlebenchmark-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\HW2\BUILD2\_DEPS\GOOGLEBENCHMARK-SUBBUILD\CMAKEFILES\1EAF201C8D5E9080C658C4FAD0800641\GOOGLEBENCHMARK-POPULATE-INSTALL.RULE
+setlocal
+cd D:\hw2\build2\_deps\googlebenchmark-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/hw2/build2/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/Debug/googlebenchmark-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\HW2\BUILD2\_DEPS\GOOGLEBENCHMARK-SUBBUILD\CMAKEFILES\1EAF201C8D5E9080C658C4FAD0800641\GOOGLEBENCHMARK-POPULATE-TEST.RULE
+setlocal
+cd D:\hw2\build2\_deps\googlebenchmark-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/hw2/build2/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/Debug/googlebenchmark-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\HW2\BUILD2\_DEPS\GOOGLEBENCHMARK-SUBBUILD\CMAKEFILES\8944DEDFBE050EA4C7830E073BBC3815\GOOGLEBENCHMARK-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/hw2/build2/_deps/googlebenchmark-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/hw2/build2/_deps/googlebenchmark-subbuild/CMakeFiles/Debug/googlebenchmark-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/hw2/build2/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/Debug/googlebenchmark-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\HW2\BUILD2\_DEPS\GOOGLEBENCHMARK-SUBBUILD\CMAKEFILES\211A93006F5A7C0EC2FB4D903C0F9313\GOOGLEBENCHMARK-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\HW2\BUILD2\_DEPS\GOOGLEBENCHMARK-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/hw2/build2/_deps/googlebenchmark-subbuild -BD:/hw2/build2/_deps/googlebenchmark-subbuild --check-stamp-file D:/hw2/build2/_deps/googlebenchmark-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

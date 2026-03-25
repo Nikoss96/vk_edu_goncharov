@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/hw2/build2/_deps/googletest-subbuild/CMakeFiles/googletest-populate"
+		},
+		{
+			"file" : "D:/hw2/build2/_deps/googletest-subbuild/CMakeFiles/4f60d703a21a464d2cb51f13df05a673/googletest-populate.rule"
+		},
+		{
+			"file" : "D:/hw2/build2/_deps/googletest-subbuild/CMakeFiles/70d6afadd8af4ead9eccbc7367ef1d6e/googletest-populate-complete.rule"
+		},
+		{
+			"file" : "D:/hw2/build2/_deps/googletest-subbuild/CMakeFiles/1f59c38b9e2c4335150f79c86d850988/googletest-populate-build.rule"
+		},
+		{
+			"file" : "D:/hw2/build2/_deps/googletest-subbuild/CMakeFiles/1f59c38b9e2c4335150f79c86d850988/googletest-populate-configure.rule"
+		},
+		{
+			"file" : "D:/hw2/build2/_deps/googletest-subbuild/CMakeFiles/1f59c38b9e2c4335150f79c86d850988/googletest-populate-download.rule"
+		},
+		{
+			"file" : "D:/hw2/build2/_deps/googletest-subbuild/CMakeFiles/1f59c38b9e2c4335150f79c86d850988/googletest-populate-install.rule"
+		},
+		{
+			"file" : "D:/hw2/build2/_deps/googletest-subbuild/CMakeFiles/1f59c38b9e2c4335150f79c86d850988/googletest-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/hw2/build2/_deps/googletest-subbuild/CMakeFiles/1f59c38b9e2c4335150f79c86d850988/googletest-populate-patch.rule"
+		},
+		{
+			"file" : "D:/hw2/build2/_deps/googletest-subbuild/CMakeFiles/1f59c38b9e2c4335150f79c86d850988/googletest-populate-test.rule"
+		},
+		{
+			"file" : "D:/hw2/build2/_deps/googletest-subbuild/CMakeFiles/1f59c38b9e2c4335150f79c86d850988/googletest-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest-populate"
+		],
+		"name" : "googletest-populate"
+	}
+}

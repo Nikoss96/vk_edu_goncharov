@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/hw2/build2/_deps/googlebenchmark-subbuild/CMakeFiles/googlebenchmark-populate"
+		},
+		{
+			"file" : "D:/hw2/build2/_deps/googlebenchmark-subbuild/CMakeFiles/211a93006f5a7c0ec2fb4d903c0f9313/googlebenchmark-populate.rule"
+		},
+		{
+			"file" : "D:/hw2/build2/_deps/googlebenchmark-subbuild/CMakeFiles/8944dedfbe050ea4c7830e073bbc3815/googlebenchmark-populate-complete.rule"
+		},
+		{
+			"file" : "D:/hw2/build2/_deps/googlebenchmark-subbuild/CMakeFiles/1eaf201c8d5e9080c658c4fad0800641/googlebenchmark-populate-build.rule"
+		},
+		{
+			"file" : "D:/hw2/build2/_deps/googlebenchmark-subbuild/CMakeFiles/1eaf201c8d5e9080c658c4fad0800641/googlebenchmark-populate-configure.rule"
+		},
+		{
+			"file" : "D:/hw2/build2/_deps/googlebenchmark-subbuild/CMakeFiles/1eaf201c8d5e9080c658c4fad0800641/googlebenchmark-populate-download.rule"
+		},
+		{
+			"file" : "D:/hw2/build2/_deps/googlebenchmark-subbuild/CMakeFiles/1eaf201c8d5e9080c658c4fad0800641/googlebenchmark-populate-install.rule"
+		},
+		{
+			"file" : "D:/hw2/build2/_deps/googlebenchmark-subbuild/CMakeFiles/1eaf201c8d5e9080c658c4fad0800641/googlebenchmark-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/hw2/build2/_deps/googlebenchmark-subbuild/CMakeFiles/1eaf201c8d5e9080c658c4fad0800641/googlebenchmark-populate-patch.rule"
+		},
+		{
+			"file" : "D:/hw2/build2/_deps/googlebenchmark-subbuild/CMakeFiles/1eaf201c8d5e9080c658c4fad0800641/googlebenchmark-populate-test.rule"
+		},
+		{
+			"file" : "D:/hw2/build2/_deps/googlebenchmark-subbuild/CMakeFiles/1eaf201c8d5e9080c658c4fad0800641/googlebenchmark-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googlebenchmark-populate"
+		],
+		"name" : "googlebenchmark-populate"
+	}
+}

@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/producer_demo.dir/producer_demo.cpp.o -o producer_demo

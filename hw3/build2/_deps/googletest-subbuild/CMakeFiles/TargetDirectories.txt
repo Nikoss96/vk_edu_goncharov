@@ -1,0 +1,3 @@
+D:/hw2/build2/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
+D:/hw2/build2/_deps/googletest-subbuild/CMakeFiles/ALL_BUILD.dir
+D:/hw2/build2/_deps/googletest-subbuild/CMakeFiles/ZERO_CHECK.dir
