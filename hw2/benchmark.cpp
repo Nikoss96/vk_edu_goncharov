@@ -3,11 +3,6 @@
 #include <vector>
 #include <cmath>
 
-// ============================================================================
-// СЛУЧАЙ 1: Однопоточная версия быстрее (маленький вектор, простая операция)
-// ============================================================================
-
-// Простая операция на маленьком векторе - однопоточная версия быстрее
 static void BM_SmallVector_SimpleOp_SingleThread(benchmark::State& state) {
     for (auto _ : state) {
         std::vector<int> data(100);
@@ -38,7 +33,6 @@ static void BM_SmallVector_SimpleOp_MultiThread(benchmark::State& state) {
 }
 BENCHMARK(BM_SmallVector_SimpleOp_MultiThread);
 
-// Очень маленький вектор с простой операцией
 static void BM_TinyVector_SingleThread(benchmark::State& state) {
     for (auto _ : state) {
         std::vector<int> data(10);
@@ -69,11 +63,6 @@ static void BM_TinyVector_MultiThread(benchmark::State& state) {
 }
 BENCHMARK(BM_TinyVector_MultiThread);
 
-// ============================================================================
-// СЛУЧАЙ 2: Многопоточная версия быстрее (большой вектор, сложная операция)
-// ============================================================================
-
-// Сложная математическая операция на большом векторе - многопоточная версия быстрее
 static void BM_LargeVector_ComplexOp_SingleThread(benchmark::State& state) {
     for (auto _ : state) {
         std::vector<double> data(1000000);
@@ -108,7 +97,6 @@ static void BM_LargeVector_ComplexOp_MultiThread(benchmark::State& state) {
 }
 BENCHMARK(BM_LargeVector_ComplexOp_MultiThread);
 
-// Вычислительно интенсивная операция (вычисление суммы делителей)
 static void BM_ComputeIntensive_SingleThread(benchmark::State& state) {
     for (auto _ : state) {
         std::vector<int> data(50000);
@@ -155,7 +143,6 @@ static void BM_ComputeIntensive_MultiThread(benchmark::State& state) {
 }
 BENCHMARK(BM_ComputeIntensive_MultiThread);
 
-// Большой вектор с умеренно сложной операцией
 static void BM_LargeVector_ModerateOp_SingleThread(benchmark::State& state) {
     for (auto _ : state) {
         std::vector<long long> data(5000000);
